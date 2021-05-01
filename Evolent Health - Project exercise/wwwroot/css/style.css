@@ -1,0 +1,114 @@
+﻿body {
+    background: #d3d3d3;
+}
+
+#ContactList {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+    #ContactList td, #ContactList th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #ContactList tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #ContactList tr:hover {
+        background-color: #ddd;
+    }
+
+    #ContactList th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4c7daf;
+        color: white;
+    }
+
+
+    /**Model**/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+#btnCreateContact {
+    cursor:pointer;
+    background: #64af4c;
+    height: 40px;
+    border: #677d5c;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    right: 300px;
+}
+
+.btnSub {
+    cursor: pointer;
+    background: #64af4c;
+    height: 30px;
+    border: #677d5c;
+    color: white;
+    border-radius: 10px;
+}
+
+#formTbl td {
+    padding: 10px;
+}
+
+#contactSuccess {
+    display: none;
+    color: #2dab1d;
+}
+
+#btnEdit {
+    display: none;
+    float:left;
+}
+
+.btnEdit {
+    background: #87b2ff;
+    color: #fff;
+}
+
+.btnDel {
+    background: #ffa9a9;
+}
