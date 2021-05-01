@@ -134,9 +134,14 @@ function clearForm() {
     $('#txtMobile').val('');
     $('#hdnId').val('');
 }
+function createPopup() {
+    $('#btnEdit').css('display', 'none');
+    $('#btnSave').css('display', 'block');
+    openPopup();
+}
 
 function openPopup() {
-    $('#contactSuccess').css('display', 'none');
+    $('#contactSuccess').css('display', 'none');    
     $('#createContactModel').show(500);
 }
 

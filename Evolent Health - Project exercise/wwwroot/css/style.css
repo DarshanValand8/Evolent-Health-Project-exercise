@@ -103,6 +103,9 @@
     display: none;
     float:left;
 }
+#btnSave {
+    float: left;
+}
 
 .btnEdit {
     background: #87b2ff;
