@@ -27,3 +27,10 @@ Steps
 2. Run the `solution file`  **Path** - Evolent-Health-Project-exercise-main/Evolent Health - Project exercise.sln
 3. Open `appsettings.json` file **Path** - Evolent-Health-Project-exercise-main/Evolent Health - Project exercise/appsettings.json
 4. Change the 'LocalDbConnection' value under the ConnectionStrings section with your MS SQL Server connection string.
+5. Run the Web application
+
+**NOTE**
+- This Repository also contains the video for How to run the application `Run_application.mp4` 
+- Database will autometicaly create while project run AND Repository also contains database scrtpt file in case need Database.
+
+Thanks!
