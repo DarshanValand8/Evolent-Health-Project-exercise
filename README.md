@@ -22,7 +22,7 @@ There is 3 project in this solution
 
 
 ## How to run an application
-Steps
+**Steps**
 1. Clone the Application on a local machine.
 2. Run the `solution file`  **Path** - Evolent-Health-Project-exercise-main/Evolent Health - Project exercise.sln
 3. Open `appsettings.json` file **Path** - Evolent-Health-Project-exercise-main/Evolent Health - Project exercise/appsettings.json
@@ -31,6 +31,6 @@ Steps
 
 **NOTE**
 - This Repository also contains the video for How to run the application `Run_application.mp4` 
-- Database will autometicaly create while project run AND Repository also contains database scrtpt file in case need Database.
+- Database will automatically create while project run AND Repository also contains database script file in case need Database.
 
 Thanks!
