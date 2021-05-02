@@ -31,6 +31,6 @@ There is 3 project in this solution
 
 **NOTE**
 - This Repository also contains the video for How to run the application `Run_application.mp4` 
-- Database will automatically create while project run AND Repository also contains database script file in case need Database.
+- Database will automatically create while project run AND Repository also contains database script file `DBscript.sql` in case need Database.
 
 Thanks!
