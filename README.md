@@ -1,4 +1,4 @@
-# _Evolent-Health-Project-exercise_
+# _Evolent Health Project exercise_
 
 ## Project Details
 - Target Framework : .Net Core 3.1
