@@ -21,3 +21,4 @@ There is 3 project in this solution
 ## How to run an application
 1. Clone the Application on a local machine.
 2. Run the solution file ( **Path** -  `Evolent-Health-Project-exercise-main/Evolent Health - Project exercise.sln` )
+3. Open `appsettings.json` file 
